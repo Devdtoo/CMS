@@ -1,0 +1,17 @@
+topic: ~test()
+# Defining extra concepts out of words or group of words
+
+#dynamic:welcomeConcept
+#dynamic:findMeetingConcept
+#
+## Replying to speech
+#u:(~welcomeConcept) $welcome
+#u:(~findMeetingConcept) $meeting
+concept:(welcomeConcept) [Pepper hi hey "good morning" greetings]
+concept:(findMeetingRoomConcept) [meeting room]
+concept:(visitorNameConcept) ["May i know your name" "" greetings]
+
+# Replying to speech
+u: (~welcomeConcept) ^goto(WELCOME)
+proposal: %WELCOME Welcome to Proven Solution, How can I help U
+        u1:(~findMeetingRoomConcept) "May I know your name %meeting"

@@ -1,0 +1,55 @@
+[
+  {
+   "robotificationId" : 1234,
+   "chat": {
+    "input": [
+      "hi",
+      "hello",
+      "Hey",
+      "Hi Pepper",
+      "Hello Pepper"
+    ],
+    "output": [
+      "Hello, Welcome to Proven Robotics",
+      "Alright, Here are the details for iPhone"
+    ],
+    "nextScreen": {
+      "id": "1",
+      "name": "Dashboard"
+    }
+  }
+ },
+ {
+   "robotificationId" : 122,
+   "chat": {
+    "input": [
+      "find me a meeting room",
+      "find a meeting"
+    ],
+    "output": [
+      "Ok May I know your name"
+    ],
+    "nextScreen": {
+      "id": "2",
+      "name": "FindMeeting"
+    }
+  }
+ }
+,
+  {
+    "robotificationId" : 122,
+    "chat": {
+      "input": [
+        "My Name is rustam",
+        "rustam"
+      ],
+      "output": [
+        "Your meeting with adele is booked from today to today"
+      ],
+      "nextScreen": {
+        "id": "2",
+        "name": "FindMeeting"
+      }
+    }
+  }
+]

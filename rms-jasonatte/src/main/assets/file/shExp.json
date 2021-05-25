@@ -1,0 +1,135 @@
+{
+  "$jason": {
+    "body": {
+      "style": {
+        "background": "#595BA6",
+        "border": "none"
+      },
+      //            "header": {
+      //                "title": {
+      //                    "type": "label",
+      //                    "text": "How may I Help You?",
+      //                    "style": {
+      //                        "background": "#595BA6",
+      //                        "color": "#ffffff",
+      //                        "padding": "10",
+      //                        "size": "50",
+      //                        "align": "right",
+      //                        "height": "600"
+      //                    }
+      //                },
+      //                "style": {
+      //                    "color": "#ffffff",
+      //                    "padding": "10",
+      //                    "size": "50",
+      //                    "align": "left",
+      //                    "height": "600"
+      //                }
+      //            },
+      "sections": [
+        {
+          "items": [
+            {
+              "type": "horizontal",
+              "style": {
+                "spacing": "15",
+                "padding": "10",
+                "align": "center"
+              },
+              "components": [
+                {
+                  "type": "label",
+                  "class": "label_class",
+                  "text": "How may I help you?",
+                  "style": {
+                    "width": "100%",
+                    "height": "75",
+                    "size": "50",
+                    "color": "#ffffff",
+                    "align": "center",
+                    "background": "#595BA6"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "horizontal",
+              "style": {
+                "spacing": "10",
+                "padding_left": "10",
+                "padding_top": "70",
+                "align": "center"
+              },
+              "components": [
+                {
+                  "type": "speak",
+                  "text": "Speaking from Jasonette File"
+                },
+                {
+                  "type": "label",
+                  "class": "label_class",
+                  "text": "First ",
+                  "style": {
+                    "width": "300",
+                    "height": "300",
+                    "align": "center",
+                    "background": "#ffffff",
+                    "corner_radius": "10"
+                  }
+                },
+                {
+                  "type": "label",
+                  "class": "label_class",
+                  "text": "Second ",
+                  "style": {
+                    "width": "300",
+                    "height": "300",
+                    "align": "center",
+                    "background": "#ffffff",
+                    "corner_radius": "10"
+                  }
+                },
+                {
+                  "type": "label",
+                  "class": "label_class",
+                  "text": "Third",
+                  "style": {
+                    "width": "300",
+                    "height": "300",
+                    "align": "center",
+                    "background": "#ffffff",
+                    "corner_radius": "10"
+                  }
+                }
+
+              ]
+            },
+            {
+              "type": "horizontal",
+              "style": {
+                "spacing": "10",
+                "padding": "10",
+                "align": "center"
+              },
+              "components": [
+                {
+                  "type": "label",
+                  "class": "label_class",
+                  "text": "Speak instead of tapping",
+                  "style": {
+                    "width": "100%",
+                    "height": "75",
+                    "size": "40",
+                    "color": "#ffffff",
+                    "align": "center",
+                    "background": "#595BA6"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
